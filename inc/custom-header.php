@@ -8,7 +8,7 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package wp-jekyll
+ * @package wp-jekyll-geeko
  */
 
 /**
@@ -20,8 +20,8 @@ function wp_jekyll_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'wp_jekyll_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
+		'width'                  => 100,
+		'height'                 => 100,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'wp_jekyll_header_style',
 	) ) );

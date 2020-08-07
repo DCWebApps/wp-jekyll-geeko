@@ -2,7 +2,7 @@
 /**
  * wp-jekyll Theme Customizer
  *
- * @package wp-jekyll
+ * @package wp-jekyll-geeko
  */
 
 /**

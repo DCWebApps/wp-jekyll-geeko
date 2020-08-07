@@ -37,6 +37,14 @@
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
             </ul>
         </div>
+        <div class="avatar-container">
+            <div class="avatar-img-border">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+<!--                <img class="avatar-img" src="" />-->
+                <?php the_header_image_tag(); ?>
+            </a>
+            </div>
+        </div>
     </div>
 </nav>
 <?php if ( !is_single() && !is_404() ) : ?>
