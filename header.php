@@ -16,14 +16,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
-<script>
-    if (typeof jQuery == 'undefined') {
-        document.write('<script src="/js/jquery-3.5.1.min.js"></scr' + 'ipt>');
-    }
-</script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/main.js"></script>
-
 <?php wp_head(); ?>
 </head>
 
