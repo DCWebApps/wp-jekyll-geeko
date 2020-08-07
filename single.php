@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package wp-jekyll
+ * @package wp-jekyll-geeko
  */
 
 get_header(); 

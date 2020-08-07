@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package wp-jekyll
+ * @package wp-jekyll-geeko
  */
 
 get_header(); ?>

@@ -1,19 +1,19 @@
-=== wp-jekyll ===
+=== wp-jekyll-geeko ===
 
 Contributors: automattic
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.0
 Tested up to: 4.7
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called wp-jekyll, or underscores.
+A starter theme called wp-jekyll-geeko, or underscores.
 
 == Description ==
 
-Hi. I'm a starter theme called wp-jekyll, or underscores, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Hi. I'm a starter theme called wp-jekyll-geeko, or underscores, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
 == Installation ==
 
@@ -25,9 +25,12 @@ Hi. I'm a starter theme called wp-jekyll, or underscores, if you like. I'm a the
 
 = Does this theme support any plugins? =
 
-wp-jekyll includes support for Infinite Scroll in Jetpack.
+wp-jekyll-geeko includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.1 - Aug 08 2020 =
+* Initial geekofication
 
 = 1.0 - May 12 2015 =
 * Initial release
