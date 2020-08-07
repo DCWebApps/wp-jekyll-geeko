@@ -38,15 +38,15 @@
             </ul>
         </div>
         <div class="avatar-container">
-            <div class="avatar-img-border">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <?php if ( get_header_image() ) { ?>
+            <?php if ( get_header_image() ) { ?>
+                <div class="avatar-img-border">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <img src="<?php echo esc_url( get_header_image() ); ?>" alt="<?php echo esc_html( get_bloginfo( 'title' ) ); ?>" class="avatar-img" />
+                </div>
                 <?php } else {
                     bloginfo( 'title' );
                 } ?>
-            </a>
-            </div>
+                </a>
         </div>
     </div>
 </nav>
