@@ -13,7 +13,6 @@ function modify_read_more_link() {
 
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
 
-
 if ( ! function_exists( 'wp_jekyll_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -53,7 +52,7 @@ function wp_jekyll_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'menu-1' => esc_html__( 'Primary', 'wp-jekyll' ),
+		'header' => esc_html__( 'Primary Custom Menu', 'wp-jekyll-geeko' ),
 	) );
 
 	/*
@@ -139,6 +138,14 @@ function wp_jekyll_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'wp_jekyll_scripts' );
+
+/**
+ * Register Custom Navigation Walker
+ */
+function register_navwalker(){
+	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
 
 /**
  * Implement the Custom Header feature.
