@@ -43,7 +43,7 @@ else { ?>
                 <?php the_content(); ?>
 	    </article>
             
-	    <ul class="paper blog-paper">
+	    <ul class="pager blog-pager">
                 <li class="previous"><?php previous_post_link( '%link', 'previous post' ); ?></li>
                 <li class="next"><?php next_post_link( '%link', 'next post' ); ?></li>
             </ul>   
