@@ -17,22 +17,21 @@
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   
-                    <!--<ul class="list-inline text-center footer-links">
+                    <ul class="list-inline text-center footer-links">
 
-                    <li>
+                    <!--<li>
                       <a href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
-                    </li>
+                    </li>-->
 
                     <li>
                       <a href="https://github.com/{{ site.author.github }}" title="GitHub">
                         <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                          <i class="fa fa-github-square fa-stack-2x"></i>
                         </span>
                       </a>
                     </li>
@@ -40,13 +39,12 @@
                     <li>
                       <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter">
                         <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                          <i class="fa fa-twitter-square fa-stack-2x"></i>
                         </span>
                       </a>
                     </li>
 
-                    <li>
+                    <!--<li>
                       <a href="https://reddit.com/u/{{ site.author.reddit }}" title="Reddit">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
@@ -143,29 +141,25 @@
                           <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
-                    </li>
+                    </li>-->
 
                             <li>
                                   <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
                                     <span class="fa-stack fa-lg">
-                                          <i class="fa fa-circle fa-stack-2x"></i>
-                                          <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                                          <i class="fa fa-rss-square fa-stack-2x"></i>
                                     </span>
                                   </a>
                             </li>
 
-                  </ul>-->
+                  </ul>
                   <p class="copyright text-muted">
-                            Author: <?php the_author(); ?> 
-                            <!--&nbsp;&bull;&nbsp;
-                            
-                            &nbsp;&bull;&nbsp;-->
+                            <?php the_author(); ?>&nbsp;&bull;&nbsp;<?php echo date(Y);?>&nbsp;&bull;&nbsp; <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
                             
                             
                       </p>
                           <!-- Please don't remove this, keep my open source work credited :) -->
                           <p class="theme-by text-muted">
-                            Theme by Moreplavec, <a href="http://moreplavec.cz/wp-jekyll">wp-jekyll</a>
+                            Theme based on <a href="http://moreplavec.cz/wp-jekyll">wp-jekyll</a> and <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
                           </p>
                 </div>
               </div>

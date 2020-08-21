@@ -35,6 +35,11 @@
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+                <?php
+                    wp_nav_menu( array( 
+                        'theme_location' => 'my-custom-menu', 
+                        'container_class' => 'custom-menu-class' ) ); 
+                    ?>
             </ul>
         </div>
         <div class="avatar-container">
