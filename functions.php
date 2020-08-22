@@ -124,7 +124,7 @@ add_action( 'widgets_init', 'wp_jekyll_widgets_init' );
  */
 function wp_jekyll_scripts() {
         
-        wp_enqueue_style( 'wp-jekyll-fontawesome', get_stylesheet_directory_uri() . '/css/fontawesome.min.css' );
+        wp_enqueue_style( 'wp-jekyll-fontawesome', get_stylesheet_directory_uri() . '/css/fontawesome.min.css' array(), '4.7.0'  );
         wp_enqueue_style( 'wp-jekyll-bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.7' );
         
         wp_enqueue_style( 'wp-jekyll-style-main', get_stylesheet_directory_uri() . '/css/main.css' );
