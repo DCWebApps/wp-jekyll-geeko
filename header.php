@@ -55,11 +55,11 @@
                 <div class="avatar-img-border">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <img src="<?php echo esc_url( get_header_image() ); ?>" alt="<?php echo esc_html( get_bloginfo( 'title' ) ); ?>" class="avatar-img" />
+                </a>
                 </div>
                 <?php } else {
                     bloginfo( 'title' );
                 } ?>
-                </a>
         </div>
     </div>
 </nav>
