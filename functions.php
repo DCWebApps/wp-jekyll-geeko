@@ -13,6 +13,13 @@ function modify_read_more_link() {
 
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
 
+// Changing excerpt more
+function new_excerpt_more($more) {
+global $post;
+return '… <a class="post-read-more" href="'. get_permalink($post->ID) . '">' . '[Read More]' . '</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
 if ( ! function_exists( 'wp_jekyll_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
