@@ -343,6 +343,9 @@ footer .theme-by {
   width: 100%;
   word-wrap: break-word; 
 }
+.post-entry iframe {
+    width: 100%;
+}
 .post-image {
   float: right;
   height: 192px;
