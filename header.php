@@ -34,20 +34,7 @@
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav navbar-right">
-                
-                <?php
-                    wp_nav_menu( array( 
-                        'theme_location'  => 'primary-custom-menu',
-                        'theme_location'  => 'primary',
-                        'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
-                        'container'       => 'div',
-                        'container_class' => 'collapse navbar-collapse',
-                        'container_id'    => 'bs-example-navbar-collapse-1',
-                        'menu_class'      => 'navbar-nav mr-auto',
-                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-                        'walker'          => new WP_Bootstrap_Navwalker(),
-                    ) ); 
-                    ?>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
             </ul>
         </div>
         <div class="avatar-container">

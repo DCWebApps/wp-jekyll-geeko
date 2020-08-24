@@ -144,14 +144,6 @@ function wp_jekyll_scripts() {
 add_action( 'wp_enqueue_scripts', 'wp_jekyll_scripts' );
 
 /**
- * Register Custom Navigation Walker
- */
-function register_navwalker(){
-	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
-}
-add_action( 'after_setup_theme', 'register_navwalker' );
-
-/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
