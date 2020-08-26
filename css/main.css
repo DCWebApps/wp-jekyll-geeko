@@ -343,7 +343,7 @@ footer .theme-by {
   width: 100%;
   word-wrap: break-word; 
 }
-.post-entry iframe, .blog-post iframe {
+.container iframe {
     width: 100%;
 }
 .post-image {
