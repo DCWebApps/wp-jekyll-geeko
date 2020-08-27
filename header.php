@@ -30,7 +30,7 @@
           <span class="icon-bar"></span>
         </button>
 
-        <?php $site = home_url( '/' ); $site_without_http = trim( str_replace( array( 'http://', 'https://' ), '', $site ), '/' ); echo '<a class="navbar-brand" href="'.$site.'">'.$site_without_http .'</a>'; ?>
+        <?php $site = home_url( '/' ); $site_without_http = trim( str_replace( array( 'http://', 'https://' ), '', $site ), '/' ); $site_without_en = trim( str_replace( array( '/en' ), '', $site_without_http ), '/' ); echo '<a class="navbar-brand" href="'.$site.'">'.$site_without_en .'</a>'; ?>
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
 			<?php wp_nav_menu('menu_class=nav navbar-nav navbar-right') ?>

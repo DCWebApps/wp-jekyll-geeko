@@ -32,7 +32,6 @@ else { ?>
                     <div class="post-heading">
                         <h1><?php the_title() ?></h1>	    
                         <h2 class="post-subheading"></h2>
-                        <span class="post-meta"> <?php the_date( 'F j, Y', 'Posted on: ', '', true ); ?></span>
                     </div>
                 </div>
             </div>
