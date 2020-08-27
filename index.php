@@ -35,6 +35,10 @@ get_header(); ?>
 
                             endwhile; ?>
                             </div>
+				<ul class="pager main-pager">
+					<li class="previous"><?php previous_posts_link( 'Newer posts' ); ?></li>
+					<li class="next"><?php next_posts_link( 'Older posts' ); ?></li>								
+				</ul>	
                         </div>
                     </div>
                 </div>
