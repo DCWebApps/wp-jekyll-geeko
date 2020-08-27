@@ -59,7 +59,7 @@ function wp_jekyll_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'header' => esc_html__( 'Primary Custom Menu', 'wp-jekyll-geeko' ),
+		'menu-1' => esc_html__( 'Primary', 'wp-jekyll' ),
 	) );
 
 	/*
@@ -79,14 +79,6 @@ function wp_jekyll_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
-
-	// Making this Walker the Default Walker for Nav Menus
-    function prefix_modify_nav_menu_args( $args ) {
-        return array_merge( $args, array(
-            'walker' => new WP_Bootstrap_Navwalker(),
-        ) );
-    }
-    add_filter( 'wp_nav_menu_args', 'prefix_modify_nav_menu_args' );
 	
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );

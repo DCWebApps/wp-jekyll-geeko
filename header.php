@@ -33,10 +33,7 @@
         <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="nav navbar-nav navbar-right">
-				<li><a href="#">About</a></li>
-				<?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
-            </ul>
+			<?php wp_nav_menu('menu_class=nav navbar-nav navbar-right') ?>
         </div>
         <div class="avatar-container">
             <?php if ( get_header_image() ) { ?>
