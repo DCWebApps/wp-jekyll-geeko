@@ -34,7 +34,8 @@
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+				<li><a href="#">About</a></li>
+				<?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
             </ul>
         </div>
         <div class="avatar-container">
