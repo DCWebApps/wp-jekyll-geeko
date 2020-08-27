@@ -4,6 +4,15 @@ This is an Wordpress adaption of [Richard Brown's](https://github.com/sysrich/ro
 
 ![](wp-jekyll-theme-preview.jpg)
 
+## Included libraries and fonts
+For privacy reasons these libraries and fonts are included to the theme:
+* Bootstrap CSS 3.3.7
+* FontAwesome 4.7.0
+* Bootstrap JS 4.0.0
+* jQuery 3.5.1
+* Source Sans Pro
+* Open Sans
+
 ## Installation
 
 ### Download from GIT
