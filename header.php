@@ -30,7 +30,7 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+        <?php $site = home_url( '/' ); $site_without_http = trim( str_replace( array( 'http://', 'https://' ), '', $site ), '/' ); echo '<a class="navbar-brand" href="'.$site.'">'.$site_without_http .'</a>'; ?>
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
 			<?php wp_nav_menu('menu_class=nav navbar-nav navbar-right') ?>
@@ -65,3 +65,4 @@
       </div>
 </header>
 <?php endif; ?>
+<!--  -->
