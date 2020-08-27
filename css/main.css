@@ -80,6 +80,7 @@ img::-moz-selection {
 
 img {
   max-width: 100%;
+  width: auto;
 }
 
 .disqus-comments {
@@ -339,7 +340,7 @@ footer .theme-by {
   display: inline-block;
   width: 100%;
 }
-.post-entry {
+.post-entry, .blog-post {
   width: 100%;
   word-wrap: break-word; 
 }
