@@ -1,6 +1,7 @@
 # WP-JEKYLL-GEEKO - Beautiful Wordpress in Green
 
 This is an Wordpress adaption of [Richard Brown's](https://github.com/sysrich/rootco.de-web) openSUSE-styled version of the [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/). It is based on [Mořeplavec's](https://github.com/moreplavec/wp-jekyll/) Wordpress port of the theme.
+Cloned repo after mention on this [Twitter post](https://twitter.com/vinzv/status/1299098631505674241?s=19)
 
 ![](wp-jekyll-theme-preview.jpg)
 
